@@ -23,12 +23,14 @@ const ProjectCard = (props) => {
 })}
         </div>
         <div className="buttons">
-          <a href={props.live} className="btn primary">
+          <a href={props.live} target="__blank__" className="btn primary">
             Live Site
           </a>
-          <a href={props.code} className="btn secondary">
-            Source Code
-          </a>
+          {props.code.trim() !=="" && (
+            <a href={props.code} className="btn secondary">
+              Source Code
+            </a>
+          )}
         </div>
       </div>
     </div>
