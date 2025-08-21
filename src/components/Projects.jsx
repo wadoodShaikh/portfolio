@@ -18,8 +18,8 @@ const Projects = () => {
             title="The Billion Investers"
             desc="TheBillionInvesters is a platform for investors can invest their money in different packages and get profit from it."
             tags={["HTML", "CSS", "JavaScript"]}
-            live="#"
-            code="#"
+            live="https://thebillioninvesters.com/"
+            code=" "
           />
           <ProjectCard
             src="https://dummyimage.com/600x400/cccccc/000000.png&text=Coming Soon"
