@@ -17,7 +17,7 @@ const Projects = () => {
             src="project-image-1.PNG"
             title="The Billion Investers"
             desc="TheBillionInvesters is a platform for investors can invest their money in different packages and get profit from it."
-            tags={["HTML", "CSS", "JavaScript"]}
+            tags={["Wordpress", "HTML", "CSS", "JavaScript"]}
             live="https://thebillioninvesters.com/"
             code=" "
           />
@@ -25,7 +25,7 @@ const Projects = () => {
             src="https://dummyimage.com/600x400/cccccc/000000.png&text=Coming Soon"
             title="E-commerce Website - (Coming Soon)"
             desc="E-commerce website built with modern web technologies."
-            tags={["HTML", "CSS", "JavaScript"]}
+            tags={["Frontend","Backend"]}
             live="#"
             code="#"
           />
