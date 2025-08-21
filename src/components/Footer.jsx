@@ -5,10 +5,24 @@ const Footer = () => {
     <div>
       <footer id="contact">
         <div className="footer-content">
-          <i className="fas fa-envelope"></i>
-          <a href="mailto:stefan.topallovic@gmail.com">
-            wadoodshaikh610@gmail.com
-          </a>
+          <div>
+            <i className="fas fa-envelope"></i>
+            <a href="mailto:wadoodshaikh610@gmail.com">
+              wadoodshaikh610@gmail.com
+            </a>
+          </div>
+          <div>
+            <i className="fas fa-map"></i>
+            <a href="#">
+              Maharashtra, India
+            </a>
+          </div>
+          <div>
+            <i className="fas fa-phone"></i>
+            <a href="#">
+              +91 9370149940
+            </a>
+          </div>
         </div>
       </footer>
     </div>
