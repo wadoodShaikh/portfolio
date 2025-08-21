@@ -232,7 +232,7 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 10px;
   color: #ddd;
@@ -242,6 +242,7 @@ footer {
 .footer-content i {
   font-size: 18px;
   color: #ddd;
+  padding-right: 10px;
 }
 
 .footer-content a {
